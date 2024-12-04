@@ -1,24 +1,25 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; // Use 'Routes' instead of 'Route'
-import Header from './components/Header.js';
-import AboutMe from './components/Aboutme.js';
-import Projects from './components/Projects.js';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Header from './components/Header';
+import AboutMe from './components/Aboutme';
+import Projects from './components/Projects';
+
+function Home() {
+  return <h2>Welcome to my Portfolio!</h2>;
+}
 
 function App() {
   return (
     <Router>
       <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<AboutMe />} />
-        <Route path="/projects" element={<Projects />} />
-      </Routes>
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route path="/about" component={AboutMe} />
+        <Route path="/projects" component={Projects} />
+      </Switch>
     </Router>
   );
 }
 
 export default App;
 
-function Home() {
-  return <h2>Welcome to my Portfolio!</h2>;
-}

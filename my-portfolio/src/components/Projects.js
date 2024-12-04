@@ -1,15 +1,15 @@
 // Projects.js
 import React from 'react';
 import './css/Projects.css';
-import Pic from './images/profilePic.jpeg'
 import memoryLane from './images/memoryLane.png'
+import gitHub from './images/github-logo.webp';
 
 const Projects = () => {
   const projects = [
     {
       title: 'Personal Portfolio',
       description: 'A personal portfolio website showcasing my work and skills.',
-      image: Pic,
+      image: gitHub,
       link: 'https://github.com/RiveraSonoely-FS/YYMM-WDV349-RiveraSonoely'
     },
     {
