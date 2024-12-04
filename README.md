@@ -1,8 +1,11 @@
+To start the application - type 'npm start' in terminal.
+Visit http://localhost:3000/ to view my website.
+
 # YYMM-WDV349-RiveraSonoely
 **Week 1**
--Create GitHub repo, and add issues and milestones.
--Set up the project with React.
--Create the basic layout and structure of the website.
+-Create GitHub repo, and add issues and milestones. ✓
+-Set up the project with React. ✓
+-Create the basic layout and structure of the website. ✓
 
 **Week 2**
 -Style the website using CSS.

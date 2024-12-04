@@ -81,3 +81,52 @@ This portfolio will serve as a professional online presence where I can display 
 - **Projects.js**: A gallery or grid to showcase my key projects.
 
 ### **Folder Structure**:
+# Personal Portfolio Website
+
+This is my personal portfolio website built with **React.js**, styled using **CSS/SCSS**, and deployed on **GitHub Pages**. It showcases my skills, projects, and experience as a web developer.
+
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Contact](#contact)
+
+## Project Overview
+
+### **Objective**:
+Create a personal portfolio to display my technical skills and past projects. The site will include:
+- **Home**: Brief intro with a call-to-action.
+- **About Me**: My background and skills.
+- **Projects**: A showcase of key projects.
+
+### **Tech Stack**:
+- **Frontend**: React.js, React Router, CSS (SCSS optional).
+- **Tools**: Visual Studio Code, Git/GitHub, GitHub Pages.
+
+## Installation
+
+To run the site locally:
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/your-username/portfolio-website.git
+    ```
+2. Install dependencies:
+    ```bash
+    npm install
+    ```
+3. Run the development server:
+    ```bash
+    npm start
+    ```
+
+Visit `http://localhost:3000` to view the website.
+
+## Usage
+
+- Modify the content in `src/components/` (e.g., Home, About, Projects).
+- Update styles in `src/styles/` for custom design.
+
+## Project Structure
+

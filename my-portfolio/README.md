@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+## Milestone 1
+⚙️ **Overview - What I worked on this past week**:
+This week, I made significant progress on the foundation of my personal portfolio website. Key accomplishments included:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Creating the GitHub repository and initializing the project using create-react-app.
+Setting up React Router for navigation between multiple pages (Home, About Me, Projects).
+Creating and adding some content in Home, About Me, and Projects pages.
+Installing gh-pages for deployment to GitHub Pages, in Milestone 4.
+Structuring the project with the initial components and layout, preparing the website for further styling and content population.
+Conducted research on best practices for responsive design and CSS styling. 
+Also reasearching how to implement an email-contact method in a future Contact page.
 
-## Available Scripts
+🌵 **Challenges- What problems did I have & how I'm addressing them**:
+One of the main challenges I faced was an issue with React Router not working properly. The routing didn’t work as expected, which led to navigation issues. To resolve this, I took the following steps based on research:
 
-In the project directory, you can run:
+Cleared npm cache with npm cache clean --force to ensure no cached data was causing the issue.
+Deleted node_modules and the package-lock.json file to remove any conflicting or corrupted dependencies.
+Reinstalled the dependencies with npm install.
+Uninstalled and reinstalled React and React-DOM to make sure I was using the latest versions:
+npm uninstall react react-dom
+npm install react@latest react-dom@latest
+Finally, I rebuilt the project to clear any issues caused by old build data, running:
+npm run build
+After completing these steps, the routing issue was resolved, and the React Router worked as expected.
 
-### `npm start`
+🏆 **Accomplishments - What is something I "leveled up" on this week**:
+I leveled up in debugging React and package management issues. Resolving the React Router issue helped me become more comfortable with handling dependency management, clearing cache, and rebuilding projects to ensure a clean slate. This has improved my troubleshooting skills and deepened my understanding of how React and package managers like npm work together.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🔮 **Next Steps - What I plan to prioritize and do next**:
+In the upcoming week, I plan to:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Advance styling the website, focusing on making it mobile-responsive and ensuring the layout looks great across all devices.
+Implement React Router fully across all pages (Home, About Me, Projects) and refine the navigation system.
+Start populating the About Me and Projects sections with more content and add interactivity (e.g., hover effects, smooth scrolling).
+Begin focusing on design polish, ensuring the website is visually cohesive and aligned with my brand.
+Review feedback from instructor and peers from Week 1 progress.
