@@ -8,7 +8,7 @@ Creating and adding some content in Home, About Me, and Projects pages.
 Installing gh-pages for deployment to GitHub Pages, in Milestone 4.
 Structuring the project with the initial components and layout, preparing the website for further styling and content population.
 Conducted research on best practices for responsive design and CSS styling. 
-Also reasearching how to implement an email-contact method in a future Contact page.
+Also researching how to implement an email-contact method in a future Contact page.
 
 🌵 **Challenges- What problems did I have & how I'm addressing them**:
 One of the main challenges I faced was an issue with React Router not working properly. The routing didn’t work as expected, which led to navigation issues. To resolve this, I took the following steps based on research:
