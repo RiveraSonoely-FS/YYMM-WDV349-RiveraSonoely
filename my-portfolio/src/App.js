@@ -3,23 +3,30 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Header from './components/Header';
 import AboutMe from './components/Aboutme';
 import Projects from './components/Projects';
+import './App.css';
 
 function Home() {
-  return <h2>Welcome to my Portfolio!</h2>;
+  return (
+    <div className="content-section">
+      <h1>Welcome to My Portfolio!</h1>
+      <p>Explore my work, learn more about me, and check out my projects.</p>
+    </div>
+  );
 }
 
 function App() {
   return (
     <Router>
-      <Header />
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/about" component={AboutMe} />
-        <Route path="/projects" component={Projects} />
-      </Switch>
+      <div className="main-wrapper">
+        <Header />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/about" component={AboutMe} />
+          <Route path="/projects" component={Projects} />
+        </Switch>
+      </div>
     </Router>
   );
 }
 
 export default App;
-
