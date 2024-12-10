@@ -1,51 +1,100 @@
 .projects {
-    padding: 40px 20px;
-    background-color: #f7f7f7;
+  padding: 40px 20px;
+  background-color: rgba(255, 255, 255, 0.85);   /* Light gray background */
+  max-width: 80%;  /* Ensure content doesn't stretch too wide */
+  margin: 0 auto;  /* Center the section */
+  border-radius: 10px;  /* Soft rounded corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);  /* Light shadow for depth */
+}
+
+.projects h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #076b7d; /* Dark gray color for the heading */
+  margin-bottom: 30px;
+}
+
+/* Grid Layout for Projects */
+.project-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));  /* Responsive grid layout */
+  gap: 20px;  /* Space between project cards */
+}
+
+/* Individual Project Card */
+.project-card {
+  background-color: #fff;  /* White background */
+  border-radius: 8px;  /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Light shadow */
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;  /* Smooth transition */
+}
+
+.project-card:hover {
+  transform: scale(1.05);  /* Slight zoom effect on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);  /* Stronger shadow on hover */
+}
+
+/* Image Styling */
+.project-card img {
+  width: 100%;  /* Ensure the image fills the card */
+  height: 200px;  /* Fixed height for uniform image size */
+  object-fit: cover;  /* Ensure images cover the space without distortion */
+}
+
+/* Project Title Styling */
+.project-card h3 {
+  margin: 15px;
+  font-size: 1.6rem;  /* Slightly larger title */
+  color: #333;  /* Dark gray for the title */
+  font-weight: bold;
+}
+
+/* Project Description Styling */
+.project-card p {
+  margin: 0 15px 15px;
+  font-size: 1rem;
+  color: #555;  /* Slightly lighter gray for text */
+  line-height: 1.5;  /* Improve text readability */
+}
+
+/* GitHub Link Styling */
+.project-card a {
+  display: block;
+  text-align: center;
+  background-color: #333;  /* Dark background for the button */
+  color: white;  /* White text color */
+  padding: 10px;
+  text-decoration: none;  /* Remove underline */
+  border-radius: 4px;  /* Rounded corners */
+  margin: 0 15px 15px;
+  font-size: 1.1rem;  /* Slightly larger font size */
+}
+
+.project-card a:hover {
+  background-color: #f0a500;  /* Gold color on hover */
+  transition: background-color 0.3s ease;  /* Smooth transition */
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .projects {
+    padding: 30px 15px;  /* Reduce padding on mobile */
   }
-  
-  .project-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 20px;
-  }
-  
+
   .project-card {
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    transition: transform 0.3s ease;
+    padding: 15px;  /* Less padding inside cards */
   }
-  
-  .project-card:hover {
-    transform: scale(1.05);
-  }
-  
-  .project-card img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-  }
-  
+
   .project-card h3 {
-    margin: 15px;
+    font-size: 1.4rem;  /* Smaller title for mobile */
   }
-  
+
   .project-card p {
-    margin: 0 15px 15px;
+    font-size: 0.9rem;  /* Smaller text for descriptions */
   }
-  
+
   .project-card a {
-    display: block;
-    text-align: center;
-    background-color: #333;
-    color: white;
-    padding: 10px;
-    text-decoration: none;
-    border-radius: 4px;
-    margin: 0 15px 15px;
+    font-size: 1rem;  /* Slightly smaller link text */
   }
-  
-  .project-card a:hover {
-    background-color: #f0a500;
-  }
+}

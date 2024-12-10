@@ -1,7 +1,6 @@
-// Projects.js
 import React from 'react';
 import './css/Projects.css';
-import memoryLane from './images/memoryLane.png'
+import memoryLane from './images/memoryLane.png';
 import gitHub from './images/github-logo.webp';
 
 const Projects = () => {
