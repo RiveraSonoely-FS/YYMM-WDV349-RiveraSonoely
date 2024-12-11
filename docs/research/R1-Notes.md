@@ -2,7 +2,7 @@
 
 ## Topic: Portfolio Websites, React, and Version Control
 
-- **Date**: December 3, 2024
+- **Date**: Novemeber 28, 2024
 - **Overview**: This week, I researched portfolio trends, React setup, CSS styling for responsiveness, and version control practices. Additionally, I implemented key features in my portfolio, including navigation, layout design, and simple styling.
 
 ---
